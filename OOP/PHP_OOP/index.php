@@ -2,19 +2,24 @@
 
 require_once 'vendor/autoload.php';
 
-use App\classes\HelloWorld;
-use App\classes\Example;
-use App\classes\Oparator;
-use App\classes\Statement;
+use App\classes\ArrayExample;
+//use App\classes\HelloWorld;
+//use App\classes\Example;
+//use App\classes\Oparator;
+//use App\classes\Statement;
+//
+//$objectOfHelloWorldClass = new HelloWorld();
+//$objectOfHelloWorldClass->NameOfFunction();
+//
+//$example = new Example();
+//$example->address();
+//
+//$oparator = new Oparator();
+//$oparator->operator();
+//
+//$statement = new Statement();
+//$statement->statement();
 
-$objectOfHelloWorldClass = new HelloWorld();
-$objectOfHelloWorldClass->NameOfFunction();
+$arrayExample = new ArrayExample();
+$arrayExample->arrayExample();
 
-$example = new Example();
-$example->address();
-
-$oparator = new Oparator();
-$oparator->operator();
-
-$statement = new Statement();
-$statement->statement();
