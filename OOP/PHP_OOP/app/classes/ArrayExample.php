@@ -177,7 +177,6 @@ class ArrayExample
                     else{
                         echo $value . " ";
                     }
-
                 }
             }
             else{
@@ -191,6 +190,5 @@ class ArrayExample
         echo "<hr/>";
         echo "<pre/>";
         var_dump($this->student3);
-
     }
 }
